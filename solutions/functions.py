@@ -48,7 +48,7 @@ def get_student_info(student_id, students):
 # Write a function to count the number of strings where the string length is 2 or more and the first and 
 # last character are same from a given list of strings. Sample List : ['abc', 'xyz', 'aba', '1221'] Expected Result = 2
 
-def get_finite_automata(list_of_strings):
+def get_finite_automata_count(list_of_strings):
         count = 0
         if isinstance(list_of_strings, list):
                 if not list_of_strings:
